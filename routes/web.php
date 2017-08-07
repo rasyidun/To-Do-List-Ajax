@@ -14,7 +14,7 @@
 //Route::resource('list', 'ListController');
 
 Route::get('/', function () {
-    return view('list');
+    return view('welcome');
 });
 
 Route::get('products', function () {
